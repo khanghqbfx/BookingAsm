@@ -1,0 +1,41 @@
+.main {
+    margin: auto;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    height:  calc(100vh - 200px);
+}
+
+.container {
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    align-self:center;
+    margin-bottom:  20px;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border: black 1px solid;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    background-color:  #0071c2;
+    color:  white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius:  5px;
+}
+.error {
+    font-size:  13px;
+    color:  red;
+}
